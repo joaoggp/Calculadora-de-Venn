@@ -19,9 +19,9 @@ var calculofinal1=(calculo2-calculo1) //Variavel do calculo acima
 var calculofinal2=(calculo3-calculo1) //Variavel do calculo acima
 var calculofinal3=(calculo4-calculo1) //Variavel do calculo acima
 
-document.write(`${individual1 - calculofinal1 - calculo1 - calculofinal2 } Possuem dificuldade somente em A</br>`) //Calculo dos valores únicos
-document.write(`${individual2 - calculofinal3 - calculo1 - calculofinal2 } Possuem dificuldade somente em B</br>`) //Calculo dos valores únicos
-document.write(`${individual3 - calculofinal1 - calculo1 - calculofinal3 } Possuem dificuldade somente em C</br>`) //Calculo dos valores únicos
+document.write(`${individual1 - calculofinal1 - calculo1 - calculofinal2 } São pessoas inseridas somente em A</br>`) //Calculo dos valores únicos
+document.write(`${individual2 - calculofinal3 - calculo1 - calculofinal2 } São pessoas inseridas somente em B</br>`) //Calculo dos valores únicos
+document.write(`${individual3 - calculofinal1 - calculo1 - calculofinal3 } São pessoas inseridas somente em C</br>`) //Calculo dos valores únicos
 document.write(`${fora} São as pessoas que estão de fora</br>`)
 
 var valorfinal1=individual1 - calculofinal1 - calculo1 - calculofinal2 
@@ -30,9 +30,9 @@ var valorfinal3=individual3 - calculofinal1 - calculo1 - calculofinal3
 
 
 if (total == 0){
-    document.write(valorfinal1 + calculofinal2 + calculo1 + calculofinal1 + valorfinal2 + calculofinal3 + valorfinal3 + fora + " É o valor total de intrevistados")
+    document.write(valorfinal1 + calculofinal2 + calculo1 + calculofinal1 + valorfinal2 + calculofinal3 + valorfinal3 + fora + " É o valor total de pessoas")
 } else{
-document.write(total - valorfinal1 - valorfinal2 - valorfinal3 - calculofinal1 - calculofinal2 - calculofinal3 - calculo1 + ' Não possuem dificuldade em nenhuma matéria')
+document.write(total - valorfinal1 - valorfinal2 - valorfinal3 - calculofinal1 - calculofinal2 - calculofinal3 - calculo1 + ' Não estão inseridas em nenhum grupo')
 }
 }
 if (esferas == 2){
@@ -52,3 +52,4 @@ document.write(`Fazem A: ${varA - final3 }</br> `)
 document.write(`Fazem B: ${varB - final3}</br>`)
 }
 }
+
