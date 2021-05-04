@@ -1,2 +1,2 @@
 # Calculadora-de-Venn
-Calculadora os valores utilizando o esquema de Venn
+Calcula os valores utilizando o esquema de Venn
